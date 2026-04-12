@@ -24,11 +24,10 @@ Instead of juggling multiple tools, just **tell Lily what you want**, and it exe
 
 ---
 
-### 🔐 Authentication & Onboarding
+### 🔐 Authentication
 
 <p align="left">
   <img src="https://github.com/user-attachments/assets/14e4bc3a-b749-4e1b-be0f-51c77e001062" width="30%" />
-  <img src="https://github.com/user-attachments/assets/36f0f87b-b152-4383-a425-5481ce9e9977" width="30%" />
 </p>
 
 ---
