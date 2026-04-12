@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingStart="4dp"
+    android:paddingEnd="12dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp">
+
+    <!-- Header row: icon + title + query + count -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingBottom="10dp">
+
+        <!-- Icon badge -->
+        <TextView
+            android:id="@+id/headerIcon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:gravity="center"
+            android:textSize="11sp"
+            android:textColor="@color/white"
+            android:text="📊"
+            android:background="@drawable/bg_indigo_icon" />
+
+        <TextView
+            android:id="@+id/headerTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Top Influencers"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="@color/slate_800"
+            android:paddingStart="8dp" />
+
+        <TextView
+            android:id="@+id/headerMeta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11sp"
+            android:textColor="@color/slate_400" />
+    </LinearLayout>
+
+    <!-- Platform tabs (for multi-platform) -->
+    <HorizontalScrollView
+        android:id="@+id/platformTabsScroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:visibility="gone"
+        android:paddingBottom="10dp">
+
+        <LinearLayout
+            android:id="@+id/platformTabs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" />
+    </HorizontalScrollView>
+
+    <!-- Influencer cards container -->
+    <LinearLayout
+        android:id="@+id/influencerContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:clipChildren="false"
+        android:clipToPadding="false" />
+
+</LinearLayout>

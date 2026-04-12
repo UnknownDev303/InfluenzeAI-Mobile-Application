@@ -1,0 +1,7 @@
+#Sun Apr 12 17:11:11 IST 2026
+base.0=D\:\\Active\\Docu3C\\V2\\MarketingAI-V2\\MobileApp\\MarketingAgent\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+base.1=D\:\\Active\\Docu3C\\V2\\MarketingAI-V2\\MobileApp\\MarketingAgent\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\7\\classes.dex
+path.0=0/classes.dex
+path.1=7/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex

@@ -1,0 +1,4 @@
+com.mota.marketingagent.test.app-androidTest-0 D:\Active\Docu3C\V2\MarketingAI-V2\MobileApp\MarketingAgent\app\build\generated\res\resValues\androidTest\debug
+com.mota.marketingagent.test.app-mergeDebugAndroidTestResources-1 D:\Active\Docu3C\V2\MarketingAI-V2\MobileApp\MarketingAgent\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.mota.marketingagent.test.app-mergeDebugAndroidTestResources-2 D:\Active\Docu3C\V2\MarketingAI-V2\MobileApp\MarketingAgent\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.mota.marketingagent.test.app-merged_res-3 D:\Active\Docu3C\V2\MarketingAI-V2\MobileApp\MarketingAgent\app\build\intermediates\merged_res\debugAndroidTest

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Lily - Marketing Agent</string>
+    <string name="google_web_client_id">474360598451-osf761nbj8hh2t27s5d2797uenvqmqbe.apps.googleusercontent.com</string>
+    <string-array name="domain_options">
+        <item>Select domain...</item>
+        <item>Technology</item>
+        <item>Marketing</item>
+        <item>Finance</item>
+        <item>Healthcare</item>
+        <item>Education</item>
+        <item>E-commerce</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="audience_options">
+        <item>Select audience...</item>
+        <item>Developers</item>
+        <item>Business Professionals</item>
+        <item>General Public</item>
+        <item>Students</item>
+        <item>Executives</item>
+        <item>Other</item>
+    </string-array>
+</resources>

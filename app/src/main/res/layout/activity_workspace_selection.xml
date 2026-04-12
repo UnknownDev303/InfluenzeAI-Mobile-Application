@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="20dp">
+
+    <!-- ===== M Logo ===== -->
+    <TextView
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:background="@drawable/bg_logo_square"
+        android:text="M"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-medium" />
+
+    <!-- ===== Header ===== -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Welcome back"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:letterSpacing="-0.02" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Select a workspace to continue your work"
+        android:textColor="@color/slate_400"
+        android:textSize="13sp" />
+
+    <!-- ===== Create / Join Buttons ===== -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnJoinWorkspace"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_weight="1"
+            android:text="Join Existing"
+            android:textAllCaps="false"
+            android:textSize="13sp"
+            android:textColor="@color/black"
+            app:cornerRadius="10dp"
+            app:backgroundTint="@color/white"
+            app:strokeColor="@color/slate_200"
+            app:strokeWidth="1dp"
+            app:iconTint="@color/black" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCreateWorkspace"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:text="Create New"
+            android:textAllCaps="false"
+            android:textSize="13sp"
+            app:cornerRadius="10dp"
+            app:backgroundTint="@color/black" />
+    </LinearLayout>
+
+    <!-- ===== Workspace List ===== -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="YOUR WORKSPACES"
+        android:textColor="@color/slate_400"
+        android:textSize="10sp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:letterSpacing="0.1" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/workspaceList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:clipToPadding="false"
+        android:paddingBottom="20dp" />
+
+</LinearLayout>

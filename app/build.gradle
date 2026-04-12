@@ -1,0 +1,41 @@
+plugins {
+    id "com.android.application"
+}
+
+android {
+    namespace "com.mota.marketingagent"
+    compileSdk 34
+
+    buildFeatures {
+        buildConfig true
+    }
+
+    defaultConfig {
+        applicationId "com.mota.marketingagent"
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+        resValue "string", "google_web_client_id", "474360598451-osf761nbj8hh2t27s5d2797uenvqmqbe.apps.googleusercontent.com"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"
+        }
+    }
+}
+
+dependencies {
+    implementation "androidx.appcompat:appcompat:1.6.1"
+    implementation "com.google.android.material:material:1.12.0"
+    implementation "androidx.recyclerview:recyclerview:1.3.2"
+    implementation "androidx.constraintlayout:constraintlayout:2.1.4"
+    implementation "androidx.cardview:cardview:1.0.0"
+    implementation "com.squareup.okhttp3:okhttp:4.12.0"
+    implementation "com.google.code.gson:gson:2.11.0"
+    implementation "com.google.android.gms:play-services-auth:21.1.1"
+    implementation "com.github.bumptech.glide:glide:4.16.0"
+    annotationProcessor "com.github.bumptech.glide:compiler:4.16.0"
+}

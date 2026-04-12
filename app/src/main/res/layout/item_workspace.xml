@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="14dp"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/bg_light_card"
+    android:gravity="center_vertical">
+
+    <!-- Workspace Initial -->
+    <TextView
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:background="@drawable/bg_icon_circle"
+        android:text="W"
+        android:textColor="@color/slate_600"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="13sp" />
+
+    <!-- Name + Role -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginStart="12dp">
+
+        <TextView
+            android:id="@+id/workspaceName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Workspace"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/workspaceRole"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="owner"
+            android:textColor="@color/slate_500"
+            android:textSize="11sp"
+            android:layout_marginTop="2dp" />
+    </LinearLayout>
+
+    <!-- Arrow -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="›"
+        android:textSize="20sp"
+        android:textColor="@color/slate_400"
+        android:paddingStart="8dp"
+        android:paddingEnd="4dp" />
+
+</LinearLayout>

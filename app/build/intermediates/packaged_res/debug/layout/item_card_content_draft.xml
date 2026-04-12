@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingStart="4dp"
+    android:paddingEnd="12dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp">
+
+    <!-- Topic header -->
+    <TextView
+        android:id="@+id/topicHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:textColor="@color/slate_800"
+        android:paddingBottom="4dp" />
+
+    <!-- Research summary -->
+    <TextView
+        android:id="@+id/researchSummary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="@color/slate_500"
+        android:lineSpacingMultiplier="1.3"
+        android:paddingBottom="10dp"
+        android:visibility="gone" />
+
+    <!-- Drafts container — dynamically populated with draft cards -->
+    <LinearLayout
+        android:id="@+id/draftsContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:clipChildren="false"
+        android:clipToPadding="false" />
+
+</LinearLayout>

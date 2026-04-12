@@ -1,0 +1,238 @@
+[
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\layout_item_card_format_selector.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\layout\\item_card_format_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\drawable_bg_indigo_icon.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\drawable\\bg_indigo_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\drawable_bg_light_card.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\drawable\\bg_light_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\drawable_bg_status_disconnected.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\drawable\\bg_status_disconnected.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\drawable_bg_logo_square.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\drawable\\bg_logo_square.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\layout_item_card_social_post.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\layout\\item_card_social_post.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\layout_item_card_metrics.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\layout\\item_card_metrics.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\layout_activity_chat.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\layout\\activity_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\layout_item_card_influencer.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\layout\\item_card_influencer.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\layout_item_card_influencer_list.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\layout\\item_card_influencer_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\layout_activity_workspace_create.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\layout\\activity_workspace_create.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\drawable_bg_bubble_user.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\drawable\\bg_bubble_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\drawable_bg_dark_card.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\drawable\\bg_dark_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\drawable_bg_chat_header_light.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\drawable\\bg_chat_header_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\layout_item_chat_agent.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\layout\\item_chat_agent.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\layout_item_card_post_options.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\layout\\item_card_post_options.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\drawable_bg_page_light.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\drawable\\bg_page_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\layout_item_card_options.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\layout\\item_card_options.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\drawable_bg_login_card.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\drawable\\bg_login_card.xml"
+    },
+    {
+        "merged": "com.mota.marketingagent.app-merged_res-35:/drawable_bg_edittext.xml.flat",
+        "source": "com.mota.marketingagent.app-main-37:/drawable/bg_edittext.xml"
+    },
+    {
+        "merged": "com.mota.marketingagent.app-merged_res-35:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.mota.marketingagent.app-main-37:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\layout_item_workspace.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\layout\\item_workspace.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\drawable_ic_google_logo.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\drawable\\ic_google_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\layout_activity_workspace_settings.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\layout\\activity_workspace_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\drawable_bg_logo_circle.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\drawable\\bg_logo_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\layout_item_card_topic_selector.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\layout\\item_card_topic_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\layout_activity_oauth_webview.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\layout\\activity_oauth_webview.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\drawable_bg_linkedin_icon.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\drawable\\bg_linkedin_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\drawable_bg_chip_outline.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\drawable\\bg_chip_outline.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\layout_activity_workspace_selection.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\layout\\activity_workspace_selection.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\drawable_bg_chat_header.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\drawable\\bg_chat_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\layout_activity_integration.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\layout\\activity_integration.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\drawable_bg_bubble_agent.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\drawable\\bg_bubble_agent.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\layout_item_card_next_steps.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\layout\\item_card_next_steps.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.mota.marketingagent.app-merged_res-35:/layout_activity_workspace_create.xml.flat",
+        "source": "com.mota.marketingagent.app-main-37:/layout/activity_workspace_create.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\drawable_bg_icon_circle.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\drawable\\bg_icon_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\drawable_bg_twitter_icon.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\drawable\\bg_twitter_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\layout_item_card_drafts.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\layout\\item_card_drafts.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\drawable_lily_avatar.png.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\drawable\\lily_avatar.png"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\layout_activity_chat_sessions.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\layout\\activity_chat_sessions.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\drawable_bg_avatar_circle.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\drawable\\bg_avatar_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\xml_network_security_config.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\xml\\network_security_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\layout_item_card_welcome_options.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\layout\\item_card_welcome_options.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\drawable_ic_send.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\drawable\\ic_send.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\layout_item_card_content_draft.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\layout\\item_card_content_draft.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\drawable_bg_card.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\drawable\\bg_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\layout_item_chat_user.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\layout\\item_chat_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\mipmap_ic_launcher.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\mipmap\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\layout_item_card_sources.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\layout\\item_card_sources.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\drawable_bg_status_connected.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\drawable\\bg_status_connected.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\layout_item_chat_session.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\layout\\item_chat_session.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\layout_item_card_posts.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\layout\\item_card_posts.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\layout_activity_publish_draft.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\layout\\activity_publish_draft.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\mipmap_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\mipmap\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-merged_res-35:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\shrey\\.gradle\\daemon\\9.0-milestone-1\\com.mota.marketingagent.app-main-37:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    }
+]

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_page_light">
+
+    <!-- Scrollable Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Create Workspace"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter the details below to set up your new workspace."
+                android:textColor="@color/gray_700"
+                android:textSize="12sp"
+                android:layout_marginTop="4dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:padding="16dp"
+                android:background="@drawable/bg_light_card"
+                android:orientation="vertical">
+
+                <!-- Name -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WORKSPACE NAME"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/gray_500"
+                    android:layout_marginBottom="4dp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/inputWorkspaceName"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:background="@drawable/bg_edittext"
+                    android:hint="e.g. Marketing Team"
+                    android:textSize="14sp"
+                    android:paddingHorizontal="12dp"
+                    android:layout_marginBottom="16dp" />
+
+                <!-- Description -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DESCRIPTION"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/gray_500"
+                    android:layout_marginBottom="4dp" />
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/inputWorkspaceDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minLines="3"
+                    android:gravity="top|start"
+                    android:background="@drawable/bg_edittext"
+                    android:hint="Brief description of your workspace..."
+                    android:textSize="14sp"
+                    android:paddingTop="12dp"
+                    android:paddingHorizontal="12dp"
+                    android:paddingBottom="12dp"
+                    android:layout_marginBottom="16dp" />
+
+                <!-- Domain and Audience Row -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:baselineAligned="false">
+
+                    <!-- Domain -->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginEnd="8dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="DOMAIN"
+                            android:textSize="10sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/gray_500"
+                            android:layout_marginBottom="4dp" />
+                        
+                        <Spinner
+                            android:id="@+id/spinnerDomain"
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:background="@drawable/bg_edittext"
+                            android:entries="@array/domain_options" />
+                    </LinearLayout>
+
+                    <!-- Audience -->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="8dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="FOCUS AUDIENCE"
+                            android:textSize="10sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/gray_500"
+                            android:layout_marginBottom="4dp" />
+                        
+                        <Spinner
+                            android:id="@+id/spinnerAudience"
+                            android:layout_width="match_parent"
+                            android:layout_height="48dp"
+                            android:background="@drawable/bg_edittext"
+                            android:entries="@array/audience_options" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- Actions -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="end|center_vertical"
+                    android:layout_marginTop="24dp">
+
+                    <TextView
+                        android:id="@+id/btnCancel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cancel"
+                        android:textColor="@color/gray_500"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:layout_marginEnd="16dp"
+                        android:clickable="true"
+                        android:focusable="true"/>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnCreate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Create Workspace →"
+                        android:textAllCaps="false"
+                        app:cornerRadius="4dp"
+                        app:backgroundTint="@color/navy_950" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Animation Overlay -->
+    <FrameLayout
+        android:id="@+id/animationOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FAFAFA"
+        android:visibility="gone"
+        android:clickable="true"
+        android:focusable="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <!-- App Logo/M Placeholder -->
+            <TextView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:text="M"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:textColor="@color/white"
+                android:background="@drawable/bg_avatar_circle"
+                android:backgroundTint="@color/black"
+                android:gravity="center"
+                android:layout_marginBottom="24dp"/>
+
+            <ProgressBar
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginBottom="20dp" 
+                android:indeterminateTint="@color/black"/>
+
+            <TextView
+                android:id="@+id/tvSystemLogText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gray_500"
+                android:textSize="14sp"
+                android:fontFamily="monospace"
+                android:text="> Initializing Lily Agent..." />
+        </LinearLayout>
+    </FrameLayout>
+
+</FrameLayout>

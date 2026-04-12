@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.mota.marketingagent.test.app-mergeDebugAndroidTestResources-1:/values/values.xml",
+            "map": [
+                {
+                    "source": "D:\\Active\\Docu3C\\V2\\MarketingAI-V2\\MobileApp\\MarketingAgent\\app\\build\\generated\\res\\resValues\\androidTest\\debug\\values\\gradleResValues.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "159",
+                        "endColumns": "142",
+                        "endOffsets": "297"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "142",
+                        "endOffsets": "193"
+                    }
+                }
+            ]
+        }
+    ]
+}
